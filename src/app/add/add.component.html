@@ -1,0 +1,18 @@
+<div *ngIf="this._ls.isLoading|async" class="loader-container">
+    <mat-progress-bar class="bar" mode="indeterminate"></mat-progress-bar>
+</div>
+<!-- <div *ngIf="_ls.isLoading|async" class="spinner-container">
+    <mat-spinner class="spinner"></mat-spinner>
+</div> -->
+<div id="main" class="box">
+    <form>
+        <input class="inp" #id="ngModel" type="number" placeholder="ID" name="id_value" [(ngModel)]="details.id"><br>
+        <input class="inp" #name="ngModel" type="text" placeholder="Name" name="name_value"[(ngModel)]="details.name"><br>
+        <input class="inp" #sal="ngModel" type="number" placeholder="Salary" name="sal_value" [(ngModel)]="details.sal"><br>
+        <button (click)="onAdd()" class="btn">Add</button>
+    </form>
+</div>
+<div id="main2" class="box2">
+    <p>Duplicate Data!</p>
+    <button (click)="onDuplicate()" class="btn1">Ok</button>
+</div>

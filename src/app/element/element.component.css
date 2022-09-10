@@ -1,0 +1,22 @@
+.box{
+    position: relative;
+    text-align: left;
+    margin:10px auto;
+    padding: 10px;
+    min-height:10vh;
+    width:50vw;
+    border-radius: 5px;
+    background-color: #CBF3F0;
+}
+p{
+    font-size: 20px;
+    font-family: Century Gothic;
+    margin: 3px;
+}
+
+.cross{
+    position: absolute;
+    right:5%;
+    font-weight: bolder;
+    cursor: pointer;
+}

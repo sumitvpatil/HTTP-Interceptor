@@ -1,0 +1,8 @@
+.box{
+    text-align: center;
+    margin:auto auto;
+    padding: 20px;
+    min-height:60vh;
+    width:100vw;
+    background-color: #2EC4B6;
+}

@@ -1,0 +1,79 @@
+.box{
+    position: relative;
+    text-align: center;
+    margin:auto auto;
+    padding: 20px;
+    min-height:40vh;
+    width:100vw;
+    background-color: #CBF3F0;
+}
+
+.inp{
+    width: 40%;
+    margin:1rem;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #59f2e8;
+    cursor:pointer;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.box2{
+    text-align: center;
+    padding:20px;
+    height:20vh;
+    position: absolute;
+    top:10%;
+    left:35%;
+    background-color: white;
+    width: 30vw;
+    border-radius:5px;
+    border:1px solid black;
+    z-index:-1;
+}
+
+.btn1{
+    margin:20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: rgb(250, 73, 73);
+    cursor:pointer;
+    transition: 0.3s ease-in;
+}
+.ele_pos{
+    z-index: 99;
+}
+
+.back_opacity{
+    opacity:0.3;
+}
+
+.loader-container{
+    position: fixed;
+    width:100%;
+    z-index: 99;
+}
+
+.spinner-container{
+    position: absolute;
+    z-index: 99;
+    height:100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+.spinner{
+    top:40%;
+    left:50%;
+}
